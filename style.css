@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #ec715f;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  color: #fafafa;
+  font-size: 16px;
+  padding: 0 30px;
+  height: 70px;
+  list-style: none;
+  line-height: 70px;
+}
+
+.nav-list a {
+  color: #fafafa;
+  font-size: 16px;
+}
