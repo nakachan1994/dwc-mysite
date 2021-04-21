@@ -287,3 +287,87 @@ header {
   color: #000000;
 }
 
+.contact-title {
+  font-size: 32px;
+  color: #000000;
+  padding: 90px 0 8px 0;
+  position: relative;
+  text-align: center
+}
+
+.contact-title::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #ec715f;
+}
+
+.contact-text {
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.contact-group {
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.left-contact-group {
+  width: 50%;
+}
+
+.left-contact-item {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.mail {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.tel {
+  padding: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.right-contact-group {
+  width: 50%;
+}
+
+.right-contact-item {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sns {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.sns-icon i {
+  font-size: 50px;
+}
+
+.sns-icon i:nth-child(2) {
+  margin: 0 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #ec715f;
+}
+
+.
