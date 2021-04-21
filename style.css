@@ -451,4 +451,17 @@ footer {
     color: #fafafa;
     padding-top: 10px;
   }
+
+  .portfolio-items {
+    width: 300px;
+    display: block;
+  }
+
+  .less {
+    display: none;
+  }
+  
+  .box4 {
+    margin-bottom: 10px;
+  }
 }
