@@ -63,8 +63,8 @@ header {
   text-align: center;
 }
 
-#port-folio {
-  background-color: #eceff1;
+#portfolio {
+  background-color: #ECEFF1;
 }
 
 .portfolio-title {
@@ -103,6 +103,7 @@ header {
   width: 920px;
   padding-bottom: 90px;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .portfolio-box {
@@ -145,4 +146,66 @@ header {
 
 .box6 {
   background-image: url(img/webcamp-mother.png);
+}
+
+.feature-title {
+  padding: 90px 0 8px 0;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  position: relative;
+}
+
+.feature-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #ec715f;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.strength {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.strength-box {
+  width: 320px;
+  height: auto;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.strength-box:nth-child(2) {
+  margin: 0 10px;
+}
+
+.strength-box i {
+  font-size: 60px;
+}
+
+.strength-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
 }
