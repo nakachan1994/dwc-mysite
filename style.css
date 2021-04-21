@@ -18,14 +18,29 @@ header {
 .header-group {
   display: flex;
   justify-content: space-between;
+  font-size: 0;
 }
 
 .logo {
   height: 70px;
 }
 
+nav {
+  display: block;
+}
+
 .nav {
   display: flex;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .nav-list {
@@ -375,4 +390,49 @@ footer {
   color: #fafafa;
   text-align: center;
   line-height: 60px;
+}
+
+@media screen and (max-width:768px) {
+  header {
+    height: 50px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .Toggle {
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #fafafa;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+
+  .Toggle span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #fafafa;
+  }
+
+  .Toggle span:nth-child(1) {
+    margin-top: 10px;
+  }
+
+  .nav-list {
+    display: none;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-color: rgba(0,0,0,.9);
+  }
 }
