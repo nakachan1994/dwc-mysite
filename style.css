@@ -209,3 +209,81 @@ header {
   font-size: 16px;
   color: #000000;
 }
+
+#profile {
+  background-color: #ECEFF1;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  padding: 90px 0 8px 0;
+  position: relative;
+}
+
+.profile-title::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #ec715f;
+}
+
+.profile-text {
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.profile-block {
+  display: flex;
+  width: 1024px;
+  padding-bottom: 90px;
+}
+
+.profile-image {
+  width: 50%;
+}
+
+.profile-icon {
+  background-image: url(img/my-icon.jpg);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.profile-introduction {
+  width: 50%;
+}
+
+.profile-myname {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.profile-history {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.myskill {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.profile-myskill {
+  font-size: 16px;
+  color: #000000;
+}
+
