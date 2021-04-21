@@ -496,8 +496,17 @@ footer {
 
   .contact-group {
     width: 100%;
+    display: block;
+    text-align: center;
   }
 
+  .left-contact-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
+  .right-contact-group {
+    width: 100%;
+  }
 
 }
