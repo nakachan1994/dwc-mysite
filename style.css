@@ -464,4 +464,19 @@ footer {
   .box4 {
     margin-bottom: 10px;
   }
+
+  .strength {
+    padding-bottom: 90px;
+    display: block;
+    width: 320px;
+  }
+
+  .strength-box {
+    margin-bottom: 0;
+  }
+
+  .strength-box:nth-child(2) {
+    margin: 20px 0;
+  }
+
 }
