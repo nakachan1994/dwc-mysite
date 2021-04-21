@@ -479,4 +479,25 @@ footer {
     margin: 20px 0;
   }
 
+  .profile-block {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .profile-image {
+    width: 100%;
+  }
+
+  .profile-introduction {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .contact-group {
+    width: 100%;
+  }
+
+
+
 }
