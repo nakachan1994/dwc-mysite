@@ -427,6 +427,10 @@ footer {
     margin-top: 10px;
   }
 
+  nav {
+    display: none;
+  }
+  
   .nav-list {
     display: none;
     width: 100%;
